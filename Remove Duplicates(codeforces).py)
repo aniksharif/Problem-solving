@@ -1,0 +1,13 @@
+#!/usr/bin/env python
+
+y = int(input())
+x = list(map(int, input().split()[:y]))
+i = list(reversed(x))
+output = []
+for j in i:
+    if j not in output:
+        output.append(j)
+
+k = list(reversed(output))
+print(len(output))
+print (" ".join(map(str, k)))
