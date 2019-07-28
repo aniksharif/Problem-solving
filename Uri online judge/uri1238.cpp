@@ -10,7 +10,7 @@ int main()
    while(a--)
    {
        
-       cin>>s>>t;
+       cin>>s>>t;  
        
       
        l=0,k=0;
